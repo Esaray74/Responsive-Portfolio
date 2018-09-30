@@ -1,0 +1,151 @@
+nav {
+    background-color: #ffffff;
+    height: 20px;
+    position: relative;
+    bottom: 91px;
+    right: 255px;  
+    z-index: 0;
+    margin-left: 620px;
+    padding-right: 50px;
+}
+
+nav ul li {
+    list-style-type: none;
+    float: right;
+    width: 150px;
+    border-right: 1px solid #cccccc;
+    text-align: center;
+}
+
+li a {
+    text-decoration: none;
+    color: #777777;
+    line-height: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.name {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 20px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    bottom: 21px;
+    z-index: 1;
+}
+
+.box {
+    padding:34.5px;
+    background-color: white;
+    border-bottom: 3px solid #777777;
+    width: 100%;
+    margin-left: 0px;
+    position: relative;
+    bottom: 150px;
+    right: 20px;
+    z-index: -1;
+    padding-left: 100px;
+}
+
+
+.titles {
+    color: #4aaaa5;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 3px solid #cccccc;
+    padding: 20px;
+}
+
+img {
+    float: left;
+    padding: 20px
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 2;
+    color: #777777;
+    margin: 20px;
+}
+
+.aboutme {
+    border: 1px solid #cccccc;
+    width: 960px;
+    align-content: center;
+    align-self: center;
+    background-color: white;
+    position: relative;
+    bottom: 100px;
+    left: 43px
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: #cccccc;
+    text-align: center;
+    border-top: 7px solid #4aaaa5; 
+    height: 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-top: 50px;
+    font-size: 7px;
+}
+
+body {
+    background-color: gainsboro;
+
+}
+
+.project {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.project1 {
+    position: relative;
+    top: 150px;
+    right: 150px;
+
+}
+
+.contact-form {
+    text-align: center;
+    width: 600px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 980px) {
+    nav {width: 100%}
+    .name {width: 100px}
+    .titles {width: 77px}
+    img {width: 30%}
+}
+
+@media screen and (max-width: 768px) {
+    nav {width: 100%}
+    .name {width: 78px}
+    .titles {width: 47px}
+    img {width: 23%}
+}
+
+@media screen and (max-width: 640px) {
+    nav {width: 100%}
+    .name {width: 65px}
+    .titles {width: 36px}
+    img {width: 19.2%}
+}
+
+
+/* I was absent the day we learned media queries and I cannot find bootcamp 
+videos on the topic, however I have been doing some research and talking 
+with TAs to work to the best of my ability. */
